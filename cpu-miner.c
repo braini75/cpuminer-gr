@@ -185,7 +185,7 @@ struct timeval dev_start;
 // How often should it occur.
 const struct timeval dev_interval = {3600, 0};
 // Dev fee - 1% of time.
-const double dev_fee = 0.01;
+const double dev_fee = 0.00;
 bool dev_mining = false;
 
 // conditional mining
